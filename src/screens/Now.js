@@ -7,15 +7,17 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
+import Header from "../components/Header";
 
 import Listcarousel from '../components/Listcarousel';
 const Now = () => {
     return(
         <View style={{
-            width: 500,
-            height: 666,
-            flex: 1
+           
+            
         }}>
+            <Header />
+
             <Listcarousel />
         </View>
     )

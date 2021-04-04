@@ -7,15 +7,15 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
+import Header from '../components/Header';
 
 const Special = () => {
-    return(
-        <View>
-            <Text>
-            Special
-            </Text>
-        </View>
-    )
-}
+  return (
+    <View>
+      <Header />
+      <Text>Special</Text>
+    </View>
+  );
+};
 
 export default Special;
